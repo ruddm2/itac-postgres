@@ -1,5 +1,5 @@
 FROM centos/postgresql-96-centos7
-MAINTAINER "Michael Rudd"
+MAINTAINER "John Doe"
 
 # default value
 ENV POSTGRESQL_ADMIN_PASSWORD=Ch@ngeMe
