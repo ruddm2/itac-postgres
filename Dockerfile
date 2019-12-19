@@ -1,9 +1,6 @@
 FROM centos/postgresql-96-centos7
 MAINTAINER "John Doe"
 
-# default value
-ENV POSTGRESQL_ADMIN_PASSWORD=Ch@ngeMe
-
 USER root
 COPY temporal_tables/temporal_tables.so /opt/rh/rh-postgresql96/root/usr/lib64/pgsql/temporal_tables.so
 COPY temporal_tables/temporal_tables.control /opt/rh/rh-postgresql96/root/usr/share/pgsql/extension/temporal_tables.control
