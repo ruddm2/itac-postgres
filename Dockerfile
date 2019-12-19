@@ -1,4 +1,4 @@
-FROM postgres:9.6
+FROM centos/postgresql-96-centos7
 MAINTAINER "Michael Rudd"
 
 USER root
